@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gwent", "Gwent\Gwent.csproj", "{13496ACD-B9C4-42EC-A697-D028CBC796D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gwent.Core", "Gwent.Core\Gwent.Core.csproj", "{E9ABAACB-9932-4677-A3E3-84B2E7A9E27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwent.Tests", "Gwent.Tests\Gwent.Tests.csproj", "{5C33D8A7-AD52-41C0-8BB0-E63A7508AF60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13496ACD-B9C4-42EC-A697-D028CBC796D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13496ACD-B9C4-42EC-A697-D028CBC796D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13496ACD-B9C4-42EC-A697-D028CBC796D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13496ACD-B9C4-42EC-A697-D028CBC796D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9ABAACB-9932-4677-A3E3-84B2E7A9E27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9ABAACB-9932-4677-A3E3-84B2E7A9E27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9ABAACB-9932-4677-A3E3-84B2E7A9E27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9ABAACB-9932-4677-A3E3-84B2E7A9E27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C33D8A7-AD52-41C0-8BB0-E63A7508AF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C33D8A7-AD52-41C0-8BB0-E63A7508AF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C33D8A7-AD52-41C0-8BB0-E63A7508AF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C33D8A7-AD52-41C0-8BB0-E63A7508AF60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4F6B32C-2319-4D96-AAD1-35A60B663E18}
+	EndGlobalSection
+EndGlobal
