@@ -114,7 +114,7 @@ namespace Gwent.Game
 
         public void EndMessage()
         {
-            Console.WriteLine("\n*-*-*-*-*-*-*- THANKS FOR PLAYING GWENT -*-*-*-*-*-*-*");
+            Console.Write("\n*-*-*-*-*-*-*- THANKS FOR PLAYING GWENT -*-*-*-*-*-*-*");
             Console.ReadKey();
         }
     }
