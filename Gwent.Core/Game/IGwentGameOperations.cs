@@ -13,8 +13,15 @@ namespace Gwent.Core.Game
 
         (IPlayer activePlayer, IPlayer opponentPlayer) SwitchActiveAndOpponentPlayers(IPlayer activePlayer, IPlayer opponentPlayer);
 
+        /// <summary>
+        /// Refills player's all mana.
+        /// </summary>
         void RefillPlayerMana(IPlayer player);
 
+        /// <summary>
+        /// Draws a random card from player's deck.
+        /// </summary>
+        /// <returns>Returns drawn card</returns>
         ICard RandomlyDrawOneCardFromPlayerDeck(IPlayer player);
 
         /// <summary>
@@ -41,6 +48,9 @@ namespace Gwent.Core.Game
         /// <returns>Info about "Is game continuous?"</returns>
         bool AttackTheOpponent(ICard selectedAttackCard, IPlayer activePlayer, IPlayer opponentPlayer);
 
+        /// <summary>
+        /// Removes the used card from the hand. Used card must belong to given hand.
+        /// </summary>
         void RemoveUsedCardFromHand(IList<ICard> hand, ICard usedCard);
     }
 }
