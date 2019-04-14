@@ -64,14 +64,14 @@ namespace Gwent.Game
                 return;
             }
 
-            bool isActivePlayerContinue;
+            bool isActivePlayerContinueToPlay;
             do
             {
                 _io.CurrentGameStatusMessage(_activePlayer, _opponentPlayer);
 
-                isActivePlayerContinue = ContinuousTurnActions();
+                isActivePlayerContinueToPlay = ContinuouslyPlayerTurnActions();
             }
-            while (isActivePlayerContinue);
+            while (isActivePlayerContinueToPlay);
 
             _io.ClearScreenMessage();
         }
@@ -109,7 +109,7 @@ namespace Gwent.Game
         /// Active player's continuously turn actions.
         /// </summary>
         /// <returns>Info about "Will the active player continue to play?"</returns>
-        private bool ContinuousTurnActions()
+        private bool ContinuouslyPlayerTurnActions()
         {
             if (!CheckPlayability())
             {
